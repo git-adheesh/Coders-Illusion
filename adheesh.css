@@ -173,3 +173,63 @@ section{
     padding: 15px;
     color: rgb(41, 39, 39);
 }
+
+@media screen and (max-width: 550px)
+{
+    .highlights
+{
+    background-color: yellowgreen;
+    text-align: left; 
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    border: 25px solid rgb(230, 248, 191);
+    font-size: 1.2rem;  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+}
+
+.our-motive
+{
+   border-radius: 20px; 
+   padding: 35px; 
+   font-size: 1.2rem; 
+   background-image: linear-gradient(to bottom ,  rgb(230, 248, 191), rgb(246, 255, 234)); 
+   text-align: left; 
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   color: rgb(0, 41, 59);
+}
+
+.topicIntro
+{
+    width: 90%;
+    text-align: justify;
+    font-size: 1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 30px;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    background-color: rgb(195, 252, 234);
+    color: rgb(34, 23, 23);
+}
+
+.about-us-data 
+{
+    text-align: justify;
+    background-color: rgb(210, 221, 219);
+    border-radius: 10px;
+    border: 2px ridge silver;
+    line-height: 1.6;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1rem;
+    padding: 15px;
+    color: rgb(41, 39, 39);
+}
+
+}
+
+
