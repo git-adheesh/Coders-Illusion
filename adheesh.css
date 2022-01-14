@@ -13,32 +13,36 @@ box-sizing: border-box;
 
 .index-bg
 {
-    background-color: rgb(236, 255, 254);
+    background-color: rgb(62, 181, 211);
 }
 
 .highlights
 {
-    background-color: yellowgreen;
-    text-align: left; 
+    background-color: rgb(247, 254, 255);
+    text-align: justify; 
     margin-top: 25px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 25px;
-    border: 25px solid rgb(230, 248, 191);
-    font-size: 2rem;  
+    border: 15px solid rgba(62, 181, 211, 0.3);
+    font-size: 1.3rem;  
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 20px;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 15px;
 }
 
 .our-motive
 {
-   border-radius: 20px; 
-   padding: 35px; 
-   font-size: 1.5rem; 
-   background-image: linear-gradient(to bottom ,  rgb(230, 248, 191), rgb(246, 255, 234)); 
-   text-align: left; 
-   font-family: Georgia, 'Times New Roman', Times, serif;
-   color: rgb(0, 41, 59);
+   border-radius: 10px; 
+   padding: 30px; 
+   font-size: 1.2rem; 
+   background-image: linear-gradient(to bottom ,  rgb(0, 48, 94), rgb(0, 166, 196)); 
+   text-align: justify; 
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: rgb(255, 255, 255);
+   font-weight: 400;
+   line-height: 2;
 }
 
 #title
@@ -46,44 +50,44 @@ box-sizing: border-box;
     cursor: pointer;
     font-family: 'Fondamento', cursive;
     font-weight: bolder;
-    color:rgb(0, 255, 242);
+    color:rgb(255, 255, 255);
 }
-
-
-
-
-
 
 
 .topicIntro
 {
     width: 90%;
     text-align: justify;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 30px;
-    border-radius: 15px;
+    border-radius: 5px;
+    margin: 15px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 40px;
-    background-color: rgb(195, 252, 234);
-    color: rgb(34, 23, 23);
+    
+    /* background-color: rgb(197, 197, 197); */
+    box-shadow: 2px 2px 5px rgb(190, 190, 190), -1px -1px 3px rgb(190, 190, 190);
+
+    color: rgb(0, 0, 0);
 }
 
 .bg-topic
 {
-    background-color: rgb(73, 164, 248);
+    background-color: rgb(254, 255, 244);
 }
 
 .topics
 {
     text-align: center;
     padding: 8% 5% 8% 5%;
-    border: 8px solid rgb(73, 164, 248);
-    border-radius: 3%;
-    margin-bottom: 1%;
-    background-color: rgb(215, 255, 242);
-    
+    width: 85%;
+    /* height: 100px; */
+    border: 8px inset rgb(70, 39, 0);
+    margin: 8%;
+    background-color: rgb(241, 241, 241);
+    border-radius: 8px;
     font-weight: 900;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
    
@@ -125,19 +129,21 @@ box-sizing: border-box;
 
 .subtopics
 {
-    font-family: 'Bree Serif', serif;
+    margin: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
     text-align: center;
     font-weight: 900;
-    color: rgb(1, 55, 105);
+    color: rgb(0, 0, 0);
     /* color: rgb(80, 0, 53); */
     text-decoration: underline;
 }
 section{
     width: 90%;
-    border: 5px solid rgb(1, 55, 105);
+    box-shadow: 3px 3px 6px rgb(0, 0, 0), -2px -2px 4px rgb(190, 190, 190);
     margin-left: auto;
     margin-right: auto;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
 .aboutus-bg
@@ -178,29 +184,33 @@ section{
 @media screen and (max-width: 550px)
 {
     .highlights
-{
-    background-color: yellowgreen;
-    text-align: left; 
-    margin-top: 25px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 25px;
-    border: 25px solid rgb(230, 248, 191);
-    font-size: 1.2rem;  
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 20px;
-}
+    {
+        background-color: rgb(247, 254, 255);
+        text-align: justify; 
+        margin-top: 25px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 25px;
+        border: 15px solid rgba(62, 181, 211, 0.3);
+        font-size: 1.3rem;  
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-radius: 10px;
+        margin: 5px;
+        padding: 15px;
+    }
 
-.our-motive
-{
-   border-radius: 20px; 
-   padding: 35px; 
-   font-size: 1.2rem; 
-   background-image: linear-gradient(to bottom ,  rgb(230, 248, 191), rgb(246, 255, 234)); 
-   text-align: left; 
-   font-family: Georgia, 'Times New Roman', Times, serif;
-   color: rgb(0, 41, 59);
-}
+    .our-motive
+    {
+       border-radius: 10px; 
+       padding: 30px; 
+       font-size: 1.2rem; 
+       background-image: linear-gradient(to bottom ,  rgb(0, 48, 94), rgb(0, 166, 196)); 
+       text-align: justify; 
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       color: rgb(255, 255, 255);
+       font-weight: 400;
+       line-height: 2;
+    }
 
 .topicIntro
 {
